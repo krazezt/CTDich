@@ -3,6 +3,8 @@ CONST MAX = 10;
 TYPE T = INTEGER;
 VAR  A : ARRAY(. 10 .) OF T;
     N : INTEGER;
+    M : INTEGER;
+    X : INTEGER;
     CH : CHAR;
     STR : STRING;
 
@@ -56,5 +58,6 @@ BEGIN
         CH := READC;
       END
     WHILE CH = 'y';
-    STR := "Oi dzoi` oi"
+    STR := "Oi dzoi` oi";
+    X := M%N
 END.  (* Example 4 *)
